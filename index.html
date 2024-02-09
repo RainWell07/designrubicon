@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Design Solutions</title>
+</head>
+<body>
+<header class="header">
+    <div class="headNavigation">
+    <div class="headerSVG"><svg width="30px" height="22px">
+        <use width = "30px" height="22px" href="./svg/svgSprite.svg#icon-teymaxSVG"></use>
+    </svg>
+<h2 class="logo">Rubicon</h3>
+    <svg class="hb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" stroke="#eee" stroke-width=".6" fill="rgba(0,0,0,0)" stroke-linecap="round" style="cursor: pointer">
+        <path d="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7">
+          <animate dur="0.2s" attributeName="d" values="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7;M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7" fill="freeze" begin="start.begin" />
+          <animate dur="0.2s" attributeName="d" values="M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7;M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7" fill="freeze" begin="reverse.begin" />
+        </path>
+        <rect width="10" height="10" stroke="none">
+          <animate dur="2s" id="reverse" attributeName="width" begin="click" />
+        </rect>
+        <rect width="10" height="10" stroke="none">
+          <animate dur="0.001s" id="start" attributeName="width" values="10;0" fill="freeze" begin="click" />
+          <animate dur="0.001s" attributeName="width" values="0;10" fill="freeze" begin="reverse.begin" />
+        </rect>
+      </svg>
+</div>
+    <!-- <nav>
+    <a href="#">Case Studies</a>
+    <a href="#">Our Team</a>
+    <a href="#">Testimonials</a>
+    <a href="#">Contacts</a>
+    </nav>
+    <button>Let`s Talk</button> -->
+    </div>
+    <section class="heroSection">
+     <ul class="webSections">
+        <div>
+            <li class="webPoints">
+                <svg width="8px" height="8px">
+                    <use width="8px" height="8px" href="./svg/svgSprite.svg#icon-yellowElipse"></use>
+                </svg>
+                Custom Design</li>
+        </div>
+        <div>
+            <li class="webPoints">
+                <svg width="8px" height="8px">
+                    <use width="8px" height="8px" href="./svg/svgSprite.svg#icon-yellowElipse"></use>
+                </svg>
+                Mobile Accessibility</li>
+        </div>
+        <div>
+            <li class="webPoints">
+                <svg width="8px" height="8px">
+                    <use width="8px" height="8px" href="./svg/svgSprite.svg#icon-yellowElipse"></use>
+                </svg>
+                Reasonable Terms</li>
+        </div>
+        <div>
+            <li class="webPoints">
+                <svg width="8px" height="8px">
+                    <use width="8px" height="8px" href="./svg/svgSprite.svg#icon-yellowElipse"></use>
+                </svg>
+                Fast Development</li>
+        </div>
+     </ul>
+     <h1 class="hero"><div class="imageHeroLogo">The Best <img class="heroImage" src="./images/yellowImg.png" alt="firstHeroImage"></div>Design Solutions for Your Business <img class="heroImage" src="./images/comp.png" alt="computer"></h1>
+     <button class="bookingBtn">Get Started</button>
+    </section>
+</header>
+<main>
+    <section class="container">
+        <h2 class="secondHero">Case Studies</h2>
+        <p class="subs">Make your target audience choose you over your competitors</p>
+        <img class="imgSecondSection" src="./images/firstComputer.png" alt="computer">
+        <img class="imgSecondSection" src="./images/secondPhone.png" alt="phone">
+        <img class="imgSecondSection" src="./images/thirdWebsite.png" alt="website">
+        <button class="becomeClientBtn">Become a Client</button>
+        </section>
+    <section class="container">
+            <h2 class="ourTeamHero">Our Team</h2>
+            <ul class="ourTeamBlock">
+                <li>
+                <img  class="imgMargin" src="./images/firstPerson.png" alt="TeamLead">
+                <p class="teamName">Michelangelo Buonarroti</p>
+                <button class="teamWork">Team Lead</button>
+                </li>
+
+                <li>
+                <img  class="imgMargin" src="./images/secondPerson.png" alt="Developer">
+                <p class="teamName">John Smith</p>
+                <button class="teamWork">Frontend Developer</button>
+                </li>
+
+                <li>
+                <img  class="imgMargin" src="./images/thirdPerson.png" alt="ceo">
+                <p class="teamName">Elizabeth Stone</p>
+                <button class="teamWork">CEO</button>
+                </li>
+
+                <li>
+                <img  class="imgMargin" src="./images/fourthPerson.png" alt="Designer">
+                <p class="teamName">Jullia Roberts</p>
+                <button class="teamWork">UI/UX Designer</button>
+                </li>
+            </ul>
+    </section>
+    <section class="container">
+        <h2 class="testimonialsHero">Testimonials</h2>
+        <div class="goodReviews">
+        <div class="reviewersWebsite">
+            <p class="reviewerName">Andrew Clinton</p>
+            <svg width="70.56px" height="20px">
+                <use width="70.56px" height="20px" href="./svg/svgSprite.svg#icon-clutch"></use>
+            </svg>
+        </div>
+        <p class="reviewerWork">Businessman</p>
+        <article class="reviewerArticle">
+        Your website development studio exceeded all our expectations. Creativity, professionalism and attention to detail were evident at every stage of the project. You created an attractive and intuitive website for us
+        </article>
+        </div>
+    </div>
+    <div class="nextReview">
+    <svg width="48px" height="48px">
+        <use width="48px" height="48px" href="./svg/svgSprite.svg#icon-arrowLeft"></use>
+    </svg>
+    <svg width="48px" height="48px">
+        <use width="48px" height="48px" href="./svg/svgSprite.svg#icon-arrowRight"></use>
+    </svg>
+    </div>
+        <!-- <div>
+            <p>Andrew Clinton</p>
+            <p>Businessman</p>
+            <article>
+            Your website development studio exceeded all our expectations. Creativity, professionalism and attention to detail were evident at every stage of the project. You created an attractive and intuitive website for us
+            </article>
+            </div> -->
+        </section>
+
+        <section class="container contactUs">
+            <h2 class="contactUsHero">Let's Work Together</h2>
+            <p class="contactUsDescr">Complete the form, and let's talk about your ideas and solutions.</p>
+            <div>
+            <form class="contactUsForm">
+            <ul>
+            <label class="contactLabel"  for="name">*Full Name</label>
+            <li>
+            <input class="contactInput" type="text" name="name" placeholder="Name">
+            </li>
+            <label class="contactLabel" for="phone">*Phone Number</label>
+            <li>
+            <input class="contactInput" type="text" name="phone" placeholder="Phone Number">
+            </li>
+            <label class="contactLabel"  for="email">Email</label>
+            <li>
+            <input class="contactInput" type="text" name="email" placeholder="Email">
+            </li>
+            </ul>
+            </form>
+            </div>
+            <button class="contactUsButton">Get Started</button>
+        </section>
+
+        <footer class="container footer">
+            <div>
+            <h2 class="footerHero">Contacts</h2>
+            <p class="footerSubscr">We can meet at any time online, just pick the day & time</p>
+            <button class="footerBtn">Book Meeting</button>
+            </div>
+            <div>
+            <ul class="findUs">
+                <li>
+                <p class="location">Location</p>
+                <a class="adress" href="#">Kyivska street, 23 , Kyiv</a>
+                </li>
+                <li>
+                <p class="location">Phone</p>
+                <a class="adress" href="tel:+38 (063) 742 37 77">+38 (063) 742 37 77</a>
+                </li>
+                <li>
+                <p class="location">Email</p>
+                <a class="adress" href="mailto:designsolutionsdev@gmail.com">designsolutionsdev@gmail.com</a>
+                </li>
+            </ul>
+            <ul class="socialWeb">
+                <li>
+                    <svg width="24px" height="24px">
+                    <use width="24px" height="24px" href="./svg/svgSprite.svg#icon-inst"></use>
+                    </svg>
+                    </li>
+                    <li>
+                        <svg width="24px" height="24px">
+                        <use width="24px" height="24px" href="./svg/svgSprite.svg#icon-faceb"></use>
+                        </svg>
+                        </li>
+                        <li>
+                            <svg width="24px" height="24px">
+                            <use width="24px" height="24px" href="./svg/svgSprite.svg#icon-linked"></use>
+                            </svg>
+                            </li>
+                            <li>
+                                <svg width="24px" height="24px">
+                                <use width="24px" height="24px" href="./svg/svgSprite.svg#icon-skype"></use>
+                                </svg>
+                                </li>
+                                <li>
+                                    <svg width="24px" height="24px">
+                                    <use width="24px" height="24px" href="./svg/svgSprite.svg#icon-upwrk"></use>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="24px" height="24px">
+                                        <use width="24px" height="24px" href="./svg/svgSprite.svg#icon-clutchfooter"></use>
+                                        </svg>
+                                        </li>
+            </ul>
+            </div>
+            </footer>
+</main>
+</body>
+</html>

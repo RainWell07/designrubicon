@@ -1,0 +1,341 @@
+/* GLOBAL PARAMS */
+body {
+background-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+
+.header {
+background-image:url(../images/headerBackground.png);
+background-size: cover;
+background-position: center;
+}
+
+.headNavigation {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 6px;
+padding-right: 6px;
+background-color: rgba(17, 38, 42, 0.2);
+}
+
+.headerSVG {
+    display: flex;
+    align-items: center;
+    gap: 2.83px;
+}
+
+.logo {
+color: rgba(255, 255, 255, 1);
+}
+
+.heroSection {
+height: 400px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-bottom: 60px;
+}
+
+.webSections {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.hero {
+color: rgba(255, 255, 255, 1);
+text-align: center;
+padding-bottom: 40px;
+font-size: 30px;
+}
+
+.webPoints {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 37px;
+    padding:10px;
+    font-size: 14px;
+}
+
+.bookingBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(224, 243, 0, 1);
+    color: rgba(17, 38, 42, 1);
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 15px;
+    border-radius: 14px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.firstImageHero {
+background-image: url(../images/Frame.png);
+}
+
+.imageHeroLogo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.heroImage {
+    width: 60px;
+    height: 32px;
+}
+
+.hb {
+    width: 50px;
+    margin-left: 150px;
+    display: block;
+  }
+
+  /* Second Section */
+
+  .secondHero {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .subs {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .imgSecondSection {
+    padding-top: 20px;
+  }
+
+
+
+  .becomeClientBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(224, 243, 0, 1);
+    color: rgba(17, 38, 42, 1);
+    font-weight: bold;
+    padding-top: 24px;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-bottom: 24px;
+    border-radius: 14px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .imgMargin {
+    margin-bottom: 12px;
+  }
+
+  .ourTeamHero {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .ourTeamBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  .teamName {
+  color:rgba(17, 38, 42, 1);
+  font-weight: bold;
+  margin-bottom: 5px;
+  }
+
+  .teamWork {
+  background-color: rgba(224, 243, 0, 1);
+  border:none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 37px;
+  }
+
+  .testimonialsHero {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .goodReviews {
+    background-color: rgba(17, 38, 42, 1);
+    border: 1px rgba(235, 240, 245, 1);
+    border-radius: 14px;
+    padding: 30px;
+    margin-bottom: 10px;
+  }
+
+  .reviewerName {
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 4px;
+  }
+
+  .reviewerWork {
+    color: rgba(224, 243, 0, 1);
+    margin-bottom: 20px;
+  }
+
+  .reviewerArticle {
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+  }
+
+  .reviewersWebsite {
+    display: flex;
+    gap: 45px;
+  }
+
+  .nextReview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+  }
+
+  .contactUs {
+    background-image: url(../images/lastSectionBackground.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 60px;
+  }
+
+  .contactUsHero {
+    font-size: 26px;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .contactUsDescr {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .contactUsForm {
+
+  }
+
+  .contactInput {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 14px;
+    border: none;
+  }
+
+  .contactLabel {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .contactUsButton {
+    background-color: rgba(17, 38, 42, 1);
+    padding:24px 42px 24px 42px ;
+    border-radius: 14px;
+    color: #FFFF;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+  }
+
+  .footer {
+    background-color: rgba(17, 38, 42, 1);
+    padding: 30px;
+  }
+
+  .footerHero {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .footerSubscr {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .footerBtn {
+    padding: 24px 72px 24px 81px;
+    background-color: rgba(224, 243, 0, 1);
+    font-weight: bold;
+    border-radius: 14px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+  .location {
+    color: rgba(224, 243, 0, 1);
+  }
+
+  .adress {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .findUs {
+    margin-bottom: 30px;
+  }
+
+  .socialWeb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
